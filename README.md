@@ -87,3 +87,40 @@ O projeto visa mensurar **eficiência operacional** e identificar **gargalos no 
 
 ## 🧱 Estrutura do Repositório  
 
+
+📁 chatbot-sla-performance-analysis/
+ ├── query.sql
+ ├── README.md
+ ├── sample_results.csv
+ └── dashboard_preview.png
+
+
+---
+
+## 🚀 Próximos Passos  
+
+1. Automatizar exportação dos resultados para **Google Sheets** via Python;  
+2. Criar **dashboard no Looker Studio** para acompanhamento visual;  
+3. Adicionar comparação histórica (Mês vs Mês) e análise de sazonalidade;  
+4. Publicar artigo no **LinkedIn** explicando o raciocínio e o impacto dos resultados.  
+
+---
+
+## 🧠 Observação Técnica  
+
+A query foi projetada para rodar em **ambiente Databricks (Spark SQL)** e utiliza parâmetros dinâmicos:  
+- `:granularity` → define o nível de agrupamento (`Day`, `Week`, `Month`);  
+- `:date.min` / `:date.max` → intervalos de data;  
+
+Esses parâmetros permitem que a análise seja flexível e aplicável em diferentes períodos.
+
+---
+
+## 📎 Contato  
+
+👤 **Franklin Santana dos Santos**  
+🔗 [GitHub - franklinsts](https://github.com/franklinsts)  
+💼 Analista de Customer Experience Sênior • Foco em Análise de Dados  
+📊 SQL | Databricks | Looker Studio | Google Sheets | Automação de dados  
+
+--- 
